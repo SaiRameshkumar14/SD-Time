@@ -54,6 +54,23 @@ body{
     top: 160px;
 }
 
-.clock{
-    
+#clock{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 35px;
+    background: #190167;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+    position: absolute;
+    left: 707px;
+    top: 222px;
 }
